@@ -1,0 +1,10 @@
+
+@charset "UTF-8";
+A:link {font-family:  Arial, Helvetica, sans-serif; font-size: 10pt;text-decoration: none;color:1981d1}
+A:visited {font-family:  Arial, Helvetica, sans-serif; font-size: 10pt;text-decoration: none;color:1981d1}
+A:hover {font-family:  Arial, Helvetica, sans-serif; font-size: 10pt;text-decoration: underline;color:1981d1}
+
+
+input { font-family:  Arial, Helvetica, sans-serif; font-size: 10pt; color:#000000 ; text-decoration: none;}
+select { font-family:  Arial, Helvetica, sans-serif; font-size: 10pt; color:#000000 ; text-decoration: none;}
+

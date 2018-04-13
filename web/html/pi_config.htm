@@ -1,0 +1,65 @@
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../cgi-bin/css/default.css">
+<link rel="stylesheet" type="text/css" href="../cgi-bin/css/normal.css">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+
+</head>
+
+<body bgcolor="PaleTurquoise">
+<form method="get" action="/cgi-bin/cgi.cgi">
+<input type="hidden" name="CUR_FORM" value="pi_config.htm" size="20" />
+<table align="center" class="display" width="600px">
+	<tr class="display_header">
+		<th colspan="2">配置信息</th>
+    </tr>
+	<tr class="display_odd">
+		<td>机器名(拼音)</td>
+		<td><input size=12 name="robot_name_en"></td>
+    </tr>
+	<tr class="display_even">
+		<td>机器名(英文)</td>
+		<td><input size=12 name="robot_name_ch"></td>
+	</tr>
+	<tr class="display_odd">
+		<td>主人称呼</td>
+		<td><input size=12 name="owner_name"></td>
+	</tr>
+	<tr class="display_even">
+		<td>机器声音</td>
+		<td>			
+			<select name="dropdown">	
+				<option>女声</option>
+				<option>男声</option>
+				<option>度逍遥</option>
+				<option>度丫丫</option>
+			</select>
+		</td>
+	</tr>
+
+	<tr class="display_odd">
+		<td>网易邮箱账户</td>
+		<td><input size=12 name="neteasyaccount"></td>
+	</tr>
+	<tr class="display_even">
+		<td>网易邮箱密码</td>
+		<td><input size=12 type="password" name="neteasypasswd"></td>
+	</tr>
+	<tr class="display_odd">
+		<td>网易云音乐账户</td>
+		<td><input size=12 name="netmusicaccount"></td>
+	</tr>
+	<tr class="display_even">
+		<td>网易云音乐密码</td>
+		<td><input size=12 type="password" name="netmusicpassword"></td>
+	</tr>
+
+	<tr class="display_odd">
+		<td colspan=2><a href="loadbar.htm"><input type="button" name="Submit" value="应用"></a></td>
+	</tr>
+</table>	
+</form>
+</body>
+</html>

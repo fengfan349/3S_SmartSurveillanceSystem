@@ -1,0 +1,5 @@
+I am comming Main /cgi-bin/cgi.cgi
+vlan config
+vlan config /cgi-bin/cgi.cgi
+html path is:
+html path is:(null)

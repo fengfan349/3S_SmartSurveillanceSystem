@@ -1,0 +1,47 @@
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../cgi-bin/css/default.css">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+
+<script type="text/javascript" src="../cgi-bin/jscripts/sdmenu.js"></script>
+
+<script type="text/javascript">
+var myMenu;
+window.onload = function() {
+	myMenu = new SDMenu("my_menu");
+	myMenu.init();
+	//myhigh = new highOnclick("my_menu");
+	//myhigh.init();
+};
+ 
+</script>
+<style>
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+</style>
+
+</head>
+<body class="nav_body">
+<div id="my_menu" class="sdmenu">
+	<div class="expanded">
+		<span>配置</span>
+		<a  href="pi_config.htm" target="content">用户配置</a>
+		<a  href="/cgi-bin/web.cgi" target="content">魔镜</a>
+	</div>
+	<div class="collapsed">
+		<span>监控</span>
+		<a href="http://192.168.43.131:8080/stream_simple.html" target="content">视频</a>
+
+	</div>
+</div>
+
+
+
+</body>
+</html>
