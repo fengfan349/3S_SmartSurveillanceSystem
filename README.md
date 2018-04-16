@@ -31,11 +31,8 @@
 <div align=center>
 	<img src="img/3s_6.png" />
 </div>
-<video src="voice.mp4" controls="controls">
-Your browser does not support the video tag.
-
-</video>
-[猫](file:img/voice.mp4)
+  
+  
 ## Yeelink云
 
         本系统的云端使用功能丰富的yeelink云作为信息存储显示和控制云平台。我们可以将系统收集到的各种数字信息图片信息上传到云端保存并图表化的提供给用户查看，同时提供开关控制功能，用户无论是使用PC还是使用移动终端都可以通过云端对家庭信息了如指掌，便捷操控。  
