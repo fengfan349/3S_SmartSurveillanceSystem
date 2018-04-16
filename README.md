@@ -2,7 +2,7 @@
 =============
 ## 系统框图
 <div align=center>
-![avatar](img/3s_1.png)  
+<img src="img/3s_1.png" />  
 </div>
 -------------
         本系统是基于物联网的云安防系统，使用树莓派作为本地服务器，连接zigbee网络采集传感器信息，接入音频模块与视频模块采集音视频信号，帮助用户时刻掌握家庭安全状态。软件部分主要由Python和C语言完成。Python语言负责完成主要的逻辑功能，C语言主要用于编写web服务器CGI处理程序。
@@ -13,7 +13,7 @@
         这一部分中使用python完成，主要工作就是使用python完成信息采集工作，切换系统指示灯的显示，通过串口收集yeelink网络传感器数据。借助python参考yeelink的API开发文档完成信息到云端的上传工作。  
 -------------
 <div align=center>
-![avatar2](img/3s_2.png) 
+<img src="img/3s_2.png" />  
 </div> 
 
 ## 语音识别功能：
