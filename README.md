@@ -29,9 +29,10 @@
     这一部分是使用python编写完成的，通过事先在系统中建立语音识别环境，使用python开发语音识别插件，来完成我们系统中所具有的各项语音命令。  
 
 <div align=center>
-	<img src="img/3s_6.png" />  
+	<img src="img/3s_6.png" />
 </div>
- [猫](file:///img/voice.mp4)
+<video src="voice.mp4" controls="controls">
+</video>
 
 ## Yeelink云
 
