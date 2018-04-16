@@ -30,7 +30,8 @@
 
 <div align=center>
 	<img src="img/3s_6.png" />  
-</div> 
+</div>
+ [猫](file:///img/voice.mp4)
 
 ## Yeelink云
 
