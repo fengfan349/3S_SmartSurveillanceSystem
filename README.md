@@ -5,14 +5,6 @@
 
     本系统是基于物联网的云安防系统，使用树莓派作为本地服务器，连接zigbee网络采集传感器信息，接入音频模块与视频模块采集音视频信号，帮助用户时刻掌握家庭安全状态。软件部分主要由Python和C语言完成。Python语言负责完成主要的逻辑功能，C语言主要用于编写web服务器CGI处理程序。
 
-<div class="video">
-   <div class="MIAOPAI_player" style='width:600px;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none;' >
-   </div>
-</div>  
-
-<div id="demo_placeholder">
-</div>
-
 ## 基本防盗报警功能：
 
     系统开启，系统初始化完毕，检测动作的程序后台运行，同时系统开机自动处于安全模式绿灯亮，这时输入密码1993系统由安全模式切换为警戒模式，感应器感应到人体动作发生，发出提示应，要求输入密码解除警报，若输入正确密码，则系统进入安全模式。若输入错误密码，系统进行报警，抓拍当事人照片上传到yeelink云端，发送警报邮件通知用户。同时本系统开机后便时刻检测室内烟雾状态，当超过临界值之后有发生火灾的危险时便会自动发生警报信号，通知主人。
