@@ -27,15 +27,10 @@
     例如：发出语音命令“小派，警戒” 本系统就会自动切换进入警戒模式。  
           发出语音命令 “小派，开灯” 本系统就会自动为用户打开灯泡。  
     这一部分是使用python编写完成的，通过事先在系统中建立语音识别环境，使用python开发语音识别插件，来完成我们系统中所具有的各项语音命令。  
-	
-<video controls="controls">
-  <source src="voice.mp4" type="video/mp4" />
-  <source src="voice.ogg" type="video/ogg" />
-  <source src="voice.webm" type="video/webm" />
-  <object data="voice.mp4" width="320" height="240">
-    <embed src="voice.swf" width="320" height="240" />
-  </object>
-</video>
+
+<div align=center>
+	<img src="img/3s_6.png" />  
+</div> 
 
 ## Yeelink云
 
