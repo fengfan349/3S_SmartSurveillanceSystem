@@ -32,6 +32,8 @@
 	<img src="img/3s_6.png" />
 </div>
 <video src="voice.mp4" controls="controls">
+Your browser does not support the video tag.
+
 </video>
 
 ## Yeelink云
