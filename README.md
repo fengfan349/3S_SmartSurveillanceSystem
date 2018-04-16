@@ -29,7 +29,12 @@
     这一部分是使用python编写完成的，通过事先在系统中建立语音识别环境，使用python开发语音识别插件，来完成我们系统中所具有的各项语音命令。  
 	
 <video controls="controls">
-    <source src="img/voice.mp4" type="video/mp4">
+  <source src="voice.mp4" type="video/mp4" />
+  <source src="voice.ogg" type="video/ogg" />
+  <source src="voice.webm" type="video/webm" />
+  <object data="voice.mp4" width="320" height="240">
+    <embed src="voice.swf" width="320" height="240" />
+  </object>
 </video>
 
 ## Yeelink云
